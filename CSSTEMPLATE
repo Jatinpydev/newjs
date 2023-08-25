@@ -1,0 +1,313 @@
+
+CSS NEW TEMPLATE 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+
+    display: flex;
+
+    background-color: rgb(254, 25, 205)
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 33%;
+    border: 2px solid red;
+    border-radius: 50px;
+}
+
+
+.joker {
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.joker li {
+
+    margin: 6px;
+
+    padding: 4px 10px;
+    list-style: none;
+    display: flex;
+    border: 3px solid grey;
+    border-radius: 20px;
+    background: transparent linear-gradient(107deg, #EF3297 0%, #FAD34F 100%);
+
+
+
+}
+
+.joker li a {
+    text-decoration: none;
+    color: aliceblue;
+    background: transparent linear-gradient(107deg, #EF3297 0%, #FAD34F 100%);
+
+}
+
+.joker li a:hover {
+    color: rgb(60, 249, 189);
+
+}
+
+.rightside {
+    width: 50%;
+
+    text-align: right;
+
+
+}
+
+#search {
+
+    padding: 5px;
+
+
+
+
+    color: white;
+
+
+}
+
+.background {
+    background: rgb(254, 25, 205)url(backweb.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+
+
+}
+
+.rightside button {
+
+    color: rgba(0, 0, 0, 0.7);
+    margin: 5px 5px;
+    padding: 5px 5px;
+    border: 2px solid black;
+    background: #503df9, #9e52f7;
+}
+
+
+.boxmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    margin: auto;
+    max-width: 50%;
+
+
+}
+
+.first {
+
+    height: 200vh;
+
+
+
+}
+
+.secondhalf img {
+
+    height: 20%;
+    width: 30%;
+    border: 4px solid white;
+    border-radius: 50px;
+
+    margin-bottom: 278px;
+}
+
+.firsthalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.secondhalf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn button {
+    color: rgb(48 213 200);
+    padding: 5px 5px 5px 5px;
+
+    background-color: black;
+
+}
+
+#left {
+
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background: black;
+    width: 49px;
+    border: 3px solid white;
+    cursor: pointer;
+
+}
+
+#left:hover {
+    color: black;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+
+#right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background: black;
+    width: 49px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+#right:hover {
+    color: black;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+.box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+
+    height: 280px;
+    width: 270px;
+
+    border: 3px solid black;
+    border-radius: 23px;
+
+
+}
+
+.box img {
+    height: 150px;
+    width: 150px;
+    height: 173px;
+    width: 236px;
+    margin-bottom: 68px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.mySlides {
+    display: none;
+}
+
+.numbertext img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+.use{
+    margin-bottom: 200px;
+}
+
+CSS NEWW

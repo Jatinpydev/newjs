@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new projrct</title>
+
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="new.js">
+</head>
+
+<body>
+
+
+    <header>
+
+        <nav class="navbar background">
+            <ul class="joker">
+                <div class="logo"><img src="keyur.jpg" alt="not working"></div>
+                <li><a href="#">home</a></li>
+                <li><a href="#">pay</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">accesories</a></li>
+            </ul>
+            <div class="rightside">
+                <input type="text" name="search" id="search">
+
+                <button class="bot">search</button>
+            </div>
+        </nav>
+
+
+
+
+    </header>
+
+    <section class="background first">
+        <div class="boxmain">
+            <div class="firsthalf">
+                <p class="textbig">PRICE AT JUST RS 99/-</p>
+                <P class="smalltext">welcome to our store we have 100 of collection buy the best quality product</P>
+
+                <div class="btn">
+
+                    <button id="left">follow</button>
+                    <button id="right">save</button>
+                </div>
+
+
+                <h2></h2>
+                <p></p>
+
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="9264.jpg" style="width:100%">
+                        <div class="text">Caption Text</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="9213.jpg" style="width:100%">
+                        <div class="text">Caption Two</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="9244.jpg" style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+                <div class="box">
+
+                    <img src="9264.jpg" alt="jay">
+                </div>
+
+
+
+
+            </div>
+            <div class="secondhalf">
+                <img class="use"src="webimage.jpg" alt="not founded">
+
+            </div>
+        </div>
+
+    </section>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+
+</body>
+
+</html>
